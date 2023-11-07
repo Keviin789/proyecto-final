@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Css-->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Contacto</title>
+
+    <!-- Logo -->
+
+    <header class="encabezado" class="borde-redondo">
+        <h1 class="logo-nav">
+            <a class="color-logo" href="index.html"> Hamburgueseria</a>
+        </h1>
+<!--menu mobile-->
+<input type="checkbox" id="check-menu">
+
+<!--header-->
+<nav class="nav_letra">
+    <p>
+        <ul class="navegacion">
+            <li class="nav-item">
+                <a href="./index.html">
+                    <i class='bx bxs-home'></i>
+                    Inicio 
+                </a>
+            </li>
+            <li class="nav-item">
+                    <a href="./catalogo.html"> 
+                        <i class='bx bxs-food-menu'></i>
+                            Catalogo
+                    </a>
+                </li>
+            <li class="nav-item">
+                    <a href="./contacto.html"> 
+                        <i class='bx bx-conversation'></i>
+                        Contacto
+                    </a>
+            </li>
+            <li class="nav-item">
+                <a href="./nosotros.html">
+                    <i class='bx bx-fork'></i>
+                    Nosotros
+                </a>
+            </li>
+        </p>
+</nav>
+
+<label for="check-menu"> <i class="bx bx-menu"></i>
+</label>
+</header>
+
+
+
+
+<!--Contacto-->
+
+    <section class="marco-contacto">
+        <p>
+            <em class="white">
+                Contacto
+            </em>
+        </p>
+
+    <div>
+            <p>
+            <form action="formulario de la pagina" method="post" class="white">
+                <ul>
+                    <li class="form-content">
+                        <label for="nombre"> Nombre: </label>
+                        <input type="text" placeholder="Nombre*" id="name" required>
+                    </li>
+                    <li class="form-content">
+                        <label for="mail"> Email: </label>
+                        <input type="text" placeholder="Email*" id="email" required>
+                    </li>
+                    <li class="form-content">
+                        <label for="telefono"> Telefono: </label>
+                        <input type="text" placeholder="Telefono*" id="phone-number" required>
+                    </li>
+                    <li class="form-content">
+                        <label for="msg"> Mensaje: </label>
+                        <input class="msj-box" type="text" placeholder="Mensaje*" id="msg" >
+                    </li>
+                    <li class="form-content">
+                        <div>
+                            <button type="submit" class="boton boton submit">Enviar</button>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </p>
+    </div>
+</section>
+
+<!-- Google maps -->
+
+<section class="maps">
+    <div class="maps-contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0179358654264!2d-58.38300270334383!3d-34.60370796468775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1696988538766!5m2!1ses!2sar" 
+    width="300" height="250" style="border: 0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+<footer >
+    <div>
+        <p>
+            <ul class="footer-box copy">
+                <li>
+                    <a><i class='bx bxl-whatsapp'></i>
+                        Wssp: +54 123-456-7890
+                    </a>
+                </li>
+                <li>
+                    <a><i class='bx bxl-instagram'></i>
+                        Instagram: https://www.instagram.com/hamburesa123456 
+                    </a>
+                </li>
+                <li>
+                    <a><i class='bx bxl-telegram'></i>
+                        Telegram: @Hamburgueseria
+                    </a>
+                </li>
+                <li>
+                    <a><i class='bx bxs-phone'></i>
+                        Telefono: 123-456-7890
+                    </a>
+                </li>
+            </ul>
+        </p>
+    
+
+    <ul class="copy-box copy">
+        <li>
+            <p>Copyright 2023©</p>
+        </li>
+        <li>
+            <p>Contáctanos al 123-456-789 o envía un correo a ayuda@miempresa.com</p>
+        </li>
+        <li>
+            <p>Para ver el aviso de privacidad, accede a miempresa.com/aviso</p>
+        </li>
+    </ul>
+    </div>
+</footer>
+    
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>
