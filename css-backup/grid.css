@@ -1,0 +1,26 @@
+
+/*catalogo*/
+
+.cat-cards{
+    width: 99%;
+    gap: 52px;
+    padding: 9px;
+    height: 99%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    background-color: rgba(255, 255, 255, 0.082);
+}
+
+.cards{
+    background-color: rgb(168, 168, 168);
+    width: 99%;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.card-img{
+    border-radius: 17px;
+    height: 177px;
+    width: 52%;
+    margin-left: 150px;
+}
