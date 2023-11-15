@@ -1,0 +1,339 @@
+/* Toda la pagina*/
+body {
+  background-image: url(../assets/img/fondo-de-pagina.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p::selection {
+  background-color: rgb(43, 42, 42);
+  color: rgba(235, 235, 235, 0.6745098039);
+}
+
+/*Encabezado*/
+.encabezado {
+  display: flex;
+  background-color: rgba(162, 162, 162, 0.865);
+  width: 99%;
+  margin-top: 17px;
+  margin-left: 10px;
+  height: 77px;
+  border: 1px solid;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.encabezado .logo-nav {
+  margin-left: 7px;
+  font-style: italic;
+}
+.encabezado .logo-nav .color-logo {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_letra {
+  font-size: 23px;
+  margin-right: 7px;
+}
+.nav_letra .navegacion .nav-item {
+  display: inline-block;
+  margin: 7px;
+}
+.nav_letra .navegacion .nav-item a {
+  color: black;
+}
+
+/* pseudoclase*/
+.nav-item:hover {
+  background-color: rgba(58, 58, 58, 0.249);
+}
+
+.nav-item:active {
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+/*inicio*/
+.dest {
+  font-family: "DancingScrip";
+  font-size: 4rem;
+  color: white;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  left: 260px;
+  width: 700px;
+}
+
+.borde-ham1y3 {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6549019608);
+  border: 7px solid rgba(0, 0, 0, 0.066);
+  margin-left: 20px;
+  margin-right: 500px;
+  margin-top: 20px;
+  height: 307px;
+  overflow: auto;
+  width: 700px;
+}
+.borde-ham1y3 .hamburguesa {
+  color: rgb(232, 16, 16);
+  font-family: "DancingScrip";
+  font-stretch: 0;
+  font-size: 3rem;
+  font-weight: 77;
+  margin: 5px;
+  margin-left: 50px;
+}
+.borde-ham1y3 .borde-hamburguesa {
+  border-radius: 17px;
+  height: 117px;
+  width: 207px;
+  margin-left: 250px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.letra-inicio {
+  margin: 7px;
+  color: rgb(255, 152, 8);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.letra-inicio .icon-color {
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+}
+.letra-inicio .icon-color .icon-color:hover {
+  color: #b8b6b6;
+}
+
+.borde-ham2 {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6549019608);
+  margin-left: 420px;
+  margin-top: 20px;
+  border-bottom: 10px;
+  height: 307px;
+  overflow: auto;
+  width: 700px;
+}
+.borde-ham2 .hamburguesa {
+  color: rgb(232, 16, 16);
+  font-family: "DancingScrip";
+  font-stretch: 0;
+  font-size: 3rem;
+  font-weight: 77;
+  margin: 5px;
+  margin-left: 50px;
+}
+.borde-ham2 .hamburguesa .borde-hamburguesa {
+  border-radius: 17px;
+  height: 117px;
+  width: 207px;
+  margin-left: 250px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+/*mapa*/
+.maps {
+  margin-top: 27px;
+}
+
+/*contacto*/
+.marco-contacto {
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.635);
+  height: 670px;
+  width: 570px;
+  border: 3px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 377px;
+  margin-top: 17px;
+}
+.marco-contacto .white {
+  color: #FFFFFF;
+}
+
+.white {
+  color: #FFFFFF;
+}
+.white .form-content {
+  margin-top: 10px;
+  font-size: 2rem;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 37px;
+}
+.white .form-content .msj-box {
+  height: 100px;
+  width: 250px;
+}
+
+.contact-container {
+  color: white;
+  background-color: black;
+  border: 4px solid white;
+  width: 550px;
+  border-radius: 37px;
+  margin-left: 750px;
+  position: relative;
+  top: -425px;
+}
+
+/*catalogo*/
+.cards:hover {
+  background-color: rgba(189, 189, 189, 0.356);
+}
+
+.letra-cat {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 77;
+}
+
+.letra-hamb {
+  color: rgb(232, 16, 16);
+  font-family: "DancingScrip";
+  font-stretch: 0;
+  font-size: 3rem;
+  font-weight: 77;
+}
+
+/*Nosotros*/
+/*caja1*/
+.nosotros-box {
+  overflow: auto;
+  margin: 15px;
+  background-color: rgba(152, 152, 152, 0.616);
+  width: 50%;
+  margin-left: 125px;
+  border: solid 3px;
+}
+.nosotros-box .cards-nosotros:hover {
+  background-color: rgba(58, 58, 58, 0.893);
+}
+.nosotros-box .cards-nosotros:hover .nosotros-img {
+  display: block;
+  display: inline-block;
+  margin-top: 17px;
+  margin-left: 190px;
+  border: solid 2px;
+}
+.nosotros-box .cards-nosotros:hover .nosotros-img p .nosotros-info {
+  color: #FFFFFF;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*caja2*/
+.nosotross-box {
+  background-color: rgb(114, 114, 114);
+  overflow: auto;
+  margin: 15px;
+  width: 50%;
+  position: relative;
+  margin-left: 550px;
+  border: solid 4px;
+}
+.nosotross-box .cards-nosotros:hover {
+  background-color: rgba(58, 58, 58, 0.893);
+}
+.nosotross-box .cards-nosotros:hover .nosotros-img {
+  display: block;
+  display: inline-block;
+  margin-top: 17px;
+  margin-left: 190px;
+  border: solid 2px;
+}
+.nosotross-box .cards-nosotros:hover .nosotros-img p .nosotros-info {
+  color: #FFFFFF;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*caja3*/
+.nosotrosss-box {
+  background-color: rgb(114, 114, 114);
+  overflow: auto;
+  margin: 15px;
+  width: 50%;
+  margin-left: 125px;
+  border: solid 5px;
+}
+.nosotrosss-box .cards-nosotros:hover {
+  background-color: rgba(58, 58, 58, 0.893);
+}
+.nosotrosss-box .cards-nosotros:hover .nosotros-imgg {
+  display: block;
+  display: inline-block;
+  margin-top: 17px;
+  margin-left: 160px;
+  border: solid 2px;
+}
+.nosotrosss-box .cards-nosotros:hover p .nosotros-info {
+  color: #FFFFFF;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Footer*/
+.footer-index {
+  position: absolute;
+  width: 90%;
+  background-color: #000000;
+  height: 150px;
+}
+.footer-index ul .footer-box {
+  color: #FFFFFF;
+  position: relative;
+  left: 300px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+.footer-index ul .footer-box .copy {
+  color: white;
+}
+
+footer {
+  position: absolute;
+  width: 99%;
+  background-color: #000000;
+  height: 150px;
+}
+
+.footer-box {
+  color: #FFFFFF;
+  position: relative;
+  left: 300px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.copy-box {
+  color: #FFFFFF;
+  position: relative;
+  top: -107px;
+  border-radius: 50px;
+}
+.copy-box .copy {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
